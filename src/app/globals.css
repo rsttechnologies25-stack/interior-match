@@ -1,0 +1,51 @@
+/* Tailwind CSS Base Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #F5F5F0;
+    --foreground: #1c1917;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+}
+
+@layer base {
+    body {
+        @apply font-sans;
+    }
+}
+
+/* Grain Overlay Effect */
+.grain-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.05;
+    background-image: url('https://grainy-gradients.vercel.app/noise.svg');
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #A8A29E;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #78716c;
+}

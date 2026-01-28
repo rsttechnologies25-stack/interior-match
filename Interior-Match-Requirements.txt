@@ -1,0 +1,321 @@
+
+
+# ✅ FINAL MASTER PROMPT
+
+**Subject: Premium Animated Interior Lead Website (High-Performance Motion UI, Bilingual EN/Tamil, Conversion-Focused)**
+
+---
+
+## Objective
+
+Build a minimalist, premium landing website for an interior design lead-connection business that connects:
+
+• **Clients who need interior work**
+• **Interior builders/designers who want client leads**
+
+The site must support **two languages**:
+• English
+• Tamil (தமிழ்)
+
+with a visible **language toggle (EN / தமிழ்)** in the header.
+
+The website should feel **luxurious, warm, and trustworthy**, while featuring **high-performance motion and liquid interactivity** inspired by modern design agency websites (reference style: string-tune.fiddle.digital), adapted for an **interior design business**.
+
+Primary goals:
+• Collect client requirements
+• Collect builder partnership requests
+• Provide WhatsApp and form-based contact
+• Present a premium interior brand
+• Feel smooth, elegant, and modern
+
+---
+
+## 1. Performance & Architecture
+
+Priority:
+• Zero layout shifts
+• Sub-100ms interaction latency
+• Lazy-load animations only when elements enter the viewport
+
+Architecture:
+• Modular section-based layout
+• Animations triggered via HTML data attributes (e.g., `data-animate="fade-up"`, `data-animate="split-text"`)
+• Avoid heavy continuous JS loops
+• Language switching must not cause layout jumps
+
+---
+
+## 2. Motion & Interaction System
+
+### Scroll & Reveal
+
+• Refined smooth scrolling without breaking accessibility
+• Sections reveal with staggered fades and subtle Y-axis translations
+• Images reveal using clip-path or mask animations
+• Gallery images softly zoom and parallax on scroll
+
+### Magnetic Interactivity
+
+• Buttons and links have magnetic pull toward cursor (40–50px radius)
+• Hover states feel soft and premium
+
+### Kinetic Typography
+
+• Hero headline and section titles use split-text animation (line-by-line or word-by-word)
+• Text reveals feel elegant and calm
+
+### Microinteractions
+
+• Liquid hover buttons
+• Card lift with soft shadow
+• Input focus animations
+• CTA buttons pulse subtly
+
+---
+
+## 3. Design Aesthetics (Interior Theme)
+
+### Color & Mood
+
+• Light luxury palette: warm beige, off-white, sand, taupe, soft gray
+• Accent: muted gold or bronze
+
+### Texture
+
+• Subtle animated grain/noise overlay
+• Optional glassmorphism header
+
+### Typography
+
+• Premium sans-serif for English (Inter, Outfit, DM Sans)
+• Tamil-compatible font (Noto Sans Tamil or Catamaran)
+• Tight letter spacing
+• Large hero text
+
+### Layout
+
+• Generous whitespace
+• Full-width hero
+• Editorial spacing
+• Smooth section transitions
+
+---
+
+## 4. Website Structure
+
+### Header
+
+• Logo
+• Navigation
+• Language toggle: EN / தமிழ்
+• Sticky with subtle blur
+
+---
+
+### Hero Section
+
+Headline (English):
+“Connecting You With Trusted Interior Builders in Your City”
+
+Tamil:
+“உங்கள் நகரில் உள்ள நம்பகமான இன்டீரியர் பில்டர்களுடன் உங்களை இணைக்கிறோம்”
+
+Subheading (EN):
+“Tell us your requirement. We’ll match you with the right interior professional.”
+
+Tamil:
+“உங்கள் தேவையை கூறுங்கள். சரியான இன்டீரியர் நிபுணரை நாங்கள் இணைப்போம்.”
+
+Primary CTAs:
+• “I Need an Interior Builder”
+• “I’m an Interior Builder”
+
+Tamil:
+• “எனக்கு இன்டீரியர் பில்டர் வேண்டும்”
+• “நான் இன்டீரியர் பில்டர்”
+
+CTA behavior:
+• Opens role-based form
+• Also shows WhatsApp option
+• Floating WhatsApp button visible on all pages
+
+---
+
+### Trust Signals (Important)
+
+Add a small section near hero:
+• Verified professionals
+• Quality-checked portfolios
+• No spam guarantee
+• Local service support
+
+Tamil equivalents included.
+
+---
+
+### How It Works
+
+Split layout:
+
+**For Clients (3 steps):**
+
+1. Submit requirement
+2. We verify & match
+3. Builder contacts you
+
+**For Builders (3 steps):**
+
+1. Register with us
+2. Get verified
+3. Receive local leads
+
+Animated staggered reveal.
+Text switches with language toggle.
+
+---
+
+### Services
+
+• Home Interior
+• Modular Kitchen
+• Office Interior
+• Renovation
+
+Tamil:
+• வீட்டு இன்டீரியர்
+• மாடுலர் கிச்சன்
+• அலுவலக இன்டீரியர்
+• புதுப்பிப்பு
+
+Cards animate on hover.
+
+---
+
+### Visual Section
+
+• Before/After image slider
+• Animated masonry grid
+• Hover zoom + soft overlay
+• Scroll reveal
+
+---
+
+### Why Choose Us
+
+• Verified builders
+• Personalized matching
+• Free consultation
+• Quality assurance
+
+Tamil:
+• சரிபார்க்கப்பட்ட பில்டர்கள்
+• தனிப்பட்ட பொருத்தம்
+• இலவச ஆலோசனை
+• தர உத்தரவாதம்
+
+---
+
+### Builder Onboarding Section
+
+“Why Builders Join Us”
+• Verified client leads
+• Area-wise matching
+• No fake inquiries
+• Growth support
+
+Tamil equivalents included.
+
+---
+
+### Contact Section
+
+Tabbed or split forms:
+
+**Client Form Fields:**
+• Name
+• Phone
+• City
+• Budget range (dropdown: 3L–5L, 5L–10L, 10L+)
+• Property type
+• Message
+
+**Builder Form Fields:**
+• Company name
+• Name
+• Phone
+• City
+• Years of experience
+• Portfolio link
+
+Both forms:
+• Animate into view
+• Have WhatsApp submit option
+• Use animated focus states
+• Support EN/Tamil
+
+---
+
+### Legal & Disclaimer
+
+Small footer text:
+“We only connect clients and builders. We do not execute the work.”
+
+Tamil equivalent included.
+
+---
+
+## 5. Accessibility & UX
+
+• Respect `prefers-reduced-motion`
+• Keyboard accessible
+• Proper contrast
+• Language toggle screen-reader friendly
+• Tamil text must not break layouts
+
+---
+
+## 6. Tech Stack
+
+• Vite or Next.js
+• Vanilla CSS or Tailwind
+• GSAP or Framer Motion
+• Lightweight JS
+• Optional subtle Three.js background reacting to scroll
+
+---
+
+## 7. Brand Feel
+
+The site must feel:
+✔ Premium
+✔ Trustworthy
+✔ Elegant
+✔ Warm
+✔ Interior-focused
+✔ Motion-driven
+✔ Conversion-oriented
+
+Avoid:
+✖ Dark tech agency
+✖ Brutalist UI
+✖ Harsh motion
+✖ Cartoon visuals
+
+---
+
+## Final Instruction
+
+Generate a complete animated bilingual landing website that:
+• Supports English & Tamil
+• Uses language toggle
+• Provides form + WhatsApp contact
+• Focuses on interior design
+• Collects client and builder leads
+• Uses high-performance animation
+• Feels premium and warm
+
+The site must clearly communicate:
+
+**“We professionally connect interior clients with interior builders in their city.”**
+
+
